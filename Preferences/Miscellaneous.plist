@@ -32,8 +32,12 @@
 				<string>]</string>
 			</array>
 			<array>
+				<string>„</string>
 				<string>“</string>
-				<string>”</string>
+			</array>
+			<array>
+				<string>»</string>
+				<string>«</string>
 			</array>
 			<array>
 				<string>/&lt;(?!area|base|basefont|br|col|embed|frame|hr|img|input|isindex|link|meta|param|source|track|wbr)\w+[^&gt;]*(?&lt;!/)&gt;/</string>
@@ -78,8 +82,12 @@
 				<string>]</string>
 			</array>
 			<array>
+				<string>„</string>
 				<string>“</string>
-				<string>”</string>
+			</array>
+			<array>
+				<string>»</string>
+				<string>«</string>
 			</array>
 			<array>
 				<string>&lt;</string>
