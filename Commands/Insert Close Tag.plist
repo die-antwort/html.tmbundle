@@ -45,16 +45,25 @@ if stack.empty? then
   %x{ osascript -e beep &amp;&gt;/dev/null &amp; }
 else
   print "&lt;/#{stack.pop}&gt;"
+  %x{ osascript -e 'tell application "System Events" to keystroke "i" using control down' &amp; }
 end</string>
 	<key>input</key>
 	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>~@.</string>
 	<key>name</key>
 	<string>Insert Close Tag</string>
-	<key>output</key>
-	<string>afterSelectedText</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>atCaret</string>
 	<key>uuid</key>
 	<string>0658019F-3635-462E-AAC2-74E4FE508A9B</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
