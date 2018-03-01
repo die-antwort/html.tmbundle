@@ -14,8 +14,6 @@ true</string>
 	<string>none</string>
 	<key>inputFormat</key>
 	<string>text</string>
-	<key>keyEquivalent</key>
-	<string>@r</string>
 	<key>name</key>
 	<string>Refresh Running Browser(s)</string>
 	<key>outputCaret</key>
