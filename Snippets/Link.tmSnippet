@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;head&gt;
-	&lt;meta http-equiv="Content-type" content="text/html; charset=utf-8"${TM_XHTML}&gt;
-	&lt;title&gt;${1:${TM_FILENAME/((.+)\..*)?/(?2:$2:Page Title)/}}&lt;/title&gt;
-	$0
-&lt;/head&gt;</string>
+	<string>&lt;link rel="${1:stylesheet}" href="${2:/css/master.css}"${TM_XHTML}&gt;</string>
 	<key>name</key>
-	<string>Head</string>
+	<string>Link</string>
 	<key>scope</key>
 	<string>text.html - B:meta.tag - B:text.html meta.embedded</string>
 	<key>tabTrigger</key>
-	<string>head</string>
+	<string>link</string>
 	<key>uuid</key>
-	<string>9CF008C4-A086-11D9-A5A2-000D93C8BE28</string>
+	<string>77BFD0C0-A08A-11D9-A5A2-000D93C8BE28</string>
 </dict>
 </plist>

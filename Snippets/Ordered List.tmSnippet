@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;link rel="${1:stylesheet}" href="${2:/css/master.css}" type="text/css" media="${3|screen,all,braille,embossed,handheld,print,projection,speech,tty,tv|}"${TM_XHTML}&gt;</string>
+	<string>&lt;ol&gt;
+	&lt;li&gt;${1:first item}&lt;/li&gt;$0
+&lt;/ol&gt;</string>
 	<key>name</key>
-	<string>Link</string>
+	<string>Ordered List</string>
 	<key>scope</key>
 	<string>text.html - B:meta.tag - B:text.html meta.embedded</string>
 	<key>tabTrigger</key>
-	<string>link</string>
+	<string>ol</string>
 	<key>uuid</key>
-	<string>77BFD0C0-A08A-11D9-A5A2-000D93C8BE28</string>
+	<string>DB9B4DA1-B050-48FC-8241-117F6897013B</string>
 </dict>
 </plist>

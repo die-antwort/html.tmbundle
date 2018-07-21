@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;script type="text/javascript"&gt;
-	$0
-&lt;/script&gt;</string>
+	<string>&lt;ul&gt;
+	&lt;li&gt;${1:first item}&lt;/li&gt;$0
+&lt;/ul&gt;</string>
 	<key>name</key>
-	<string>Script</string>
+	<string>Unordered List</string>
 	<key>scope</key>
 	<string>text.html - B:meta.tag - B:text.html meta.embedded</string>
 	<key>tabTrigger</key>
-	<string>script</string>
+	<string>ul</string>
 	<key>uuid</key>
-	<string>6592050A-A087-11D9-A5A2-000D93C8BE28</string>
+	<string>F4D90AE0-533A-493D-8949-DA9D5F4C53C8</string>
 </dict>
 </plist>

@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;style type="text/css" media="screen"&gt;
-	$0
-&lt;/style&gt;</string>
+	<string>&lt;source src="${1:example.mp4}" type="video/${1/(?i).*?(?:\.((mp4)|(webm)|(og[gv])|(mov)))?$/(?2:mp4)(?3:webm)(?4:ogg)(?5:quicktime)(?1::unknown)/}"${TM_XHTML}&gt;</string>
 	<key>name</key>
-	<string>Style</string>
+	<string>Source</string>
 	<key>scope</key>
 	<string>text.html - B:meta.tag - B:text.html meta.embedded</string>
 	<key>tabTrigger</key>
-	<string>style</string>
+	<string>source</string>
 	<key>uuid</key>
-	<string>3C518074-A088-11D9-A5A2-000D93C8BE28</string>
+	<string>2A98CB53-7B41-48BF-ADFD-EB701EE61F84</string>
 </dict>
 </plist>
