@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Strong</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>text.html, text.haml, text.slim</string>
 	<key>uuid</key>
 	<string>4117D930-B6FA-4022-97E7-ECCAF4E70F63</string>
 </dict>

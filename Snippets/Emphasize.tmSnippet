@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Emphasize</string>
 	<key>scope</key>
-	<string>text.html</string>
+	<string>text.html, text.haml, text.slim</string>
 	<key>uuid</key>
 	<string>EBB98620-3292-4621-BA38-D8A9A65D9551</string>
 </dict>
